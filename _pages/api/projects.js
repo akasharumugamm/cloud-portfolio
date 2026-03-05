@@ -27,13 +27,13 @@ export default async function handler(req, res) {
         image: "cloudvpn.png",
       },
       {
-        name: "Cloud Portfolio (AWS Serverless)",
+        name: "Cloud Portfolio Deployment with CI/CD",
         description:
-          "A serverless cloud portfolio built using Next.js and deployed on AWS. The website is statically hosted on Amazon S3 and delivered globally using CloudFront CDN. A serverless visitor counter is implemented using AWS Lambda and API Gateway. The deployment pipeline is fully automated with GitHub Actions, which builds the Next.js project, exports static files, uploads them to S3, and invalidates the CloudFront cache for instant updates.",
-        stack: ["AWS", "S3", "CloudFront", "Lambda", "API Gateway", "GitHub Actions", "Next.js"],
+          "A cloud-native portfolio deployed on AWS using Next.js static export, Amazon S3 static hosting, and automated CI/CD via GitHub Actions. Every code push triggers automatic build and deployment to AWS.",
+        stack: ["Next.js", "AWS S3", "GitHub Actions", "CI/CD", "Node.js"],
         link: "https://github.com/akasharumugamm/cloud-portfolio",
-        image: "cloudportfolio.png",
-      },
+        image: "cloud-portfolio.png"
+      }
     ];
 
     return res.json(projects);
