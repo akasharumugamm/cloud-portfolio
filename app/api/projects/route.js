@@ -16,6 +16,14 @@ export async function GET(request) {
       link: "https://github.com/akasharumugamm/CloudCryptVPN",
       image: "cloudvpn.png",
     },
+    {
+      name: "Cloud Portfolio (AWS Serverless)",
+      description:
+        "A serverless cloud portfolio built using Next.js and deployed on AWS. The website is statically hosted on Amazon S3 and delivered globally using CloudFront CDN. A serverless visitor counter is implemented using AWS Lambda and API Gateway. The deployment pipeline is fully automated with GitHub Actions, which builds the Next.js project, exports static files, uploads them to S3, and invalidates the CloudFront cache for instant updates.",
+      stack: ["AWS", "S3", "CloudFront", "Lambda", "API Gateway", "GitHub Actions", "Next.js"],
+      link: "https://github.com/akasharumugamm/cloud-portfolio",
+      image: "cloudportfolio.png",
+    },
   ];
 
   return Response.json(projects, {
