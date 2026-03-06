@@ -23,7 +23,7 @@ export async function GET(request) {
       stack: ["Next.js", "AWS S3", "GitHub Actions", "CI/CD", "Node.js"],
       link: "https://github.com/akasharumugamm/cloud-portfolio",
       image: "cloud-portfolio.png"
-    }
+    },
     {
       name: "College Hackathon Website (InnoHack)",
       description:
