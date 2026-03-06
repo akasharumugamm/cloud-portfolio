@@ -24,6 +24,14 @@ export async function GET(request) {
       link: "https://github.com/akasharumugamm/cloud-portfolio",
       image: "cloud-portfolio.png"
     }
+    {
+      name: "College Hackathon Website (InnoHack)",
+      description:
+        "An interactive hackathon landing page built using Framer with smooth animations powered by Framer Motion. Designed to showcase event details, registration information, and schedules with a modern UI and engaging motion effects.",
+      stack: ["Framer", "Framer Motion", "UI/UX Design", "Responsive Design"],
+      link: "https://innohack-measi.framer.ai/",
+      image: "innohack.png"
+    }
   ];
 
   return Response.json(projects, {
